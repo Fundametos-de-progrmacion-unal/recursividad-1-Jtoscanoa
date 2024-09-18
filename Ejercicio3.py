@@ -1,6 +1,6 @@
 # Ejercicio 3: Suma de dígitos
 
 def suma_digitos(n):
-    # Escriba su codigo acontinuacion
-    # Elimine el pass
-    pass
+    n, s = str(n), s= 0
+    for i in n: s += int(i)
+    return s
