@@ -4,7 +4,7 @@ def fibonacci(x):
     print(a)
     print(b)
     for i in range(x):
-        print(x+y)
-        t = x
-        x = y
-        y=t+y
+        print(x+b)
+        t = a
+        a = b
+        b=t+b
