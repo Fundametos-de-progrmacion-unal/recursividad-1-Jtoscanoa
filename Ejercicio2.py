@@ -1,4 +1,5 @@
 def fibonacci(x):
-    a, b = 1, 2
-    for i in range(x): t = a, a = b, b=t+b
-    return b
+    a, b = 0, 1
+    for _ in range(x):
+        a, b = b, a + b
+    return a
